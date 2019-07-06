@@ -16,6 +16,17 @@ Import synapse.js script in your html
 ```html
 <script src="./synapse.js" charset="utf-8"></script>
 ```
+Then initialize Synapse Class in a js file or inside a script tag
+```js
+var port = 8080 //number of the port of WebSocket Server
+var synapse = new window.Synapse(port);
+```
+```html
+<script>
+    var port = 8080 //number of the port of WebSocket Server
+    var synapse = new window.Synapse(port);
+</script>
+```
 
 ## Contributing
 
